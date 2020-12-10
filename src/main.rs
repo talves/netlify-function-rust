@@ -38,4 +38,3 @@ fn my_handler(e: CustomEvent, c: lambda::Context) -> Result<CustomOutput, Handle
         message: format!("🦀 Hello, {}! 🦀", e.first_name),
     })
 }
-// Ok("🦀 Hello, Netlify 🦀")
